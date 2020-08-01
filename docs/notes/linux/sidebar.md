@@ -1,0 +1,5 @@
+- Debian
+  - [Ubuntu](/docs/notes/linux/Debian/Ubuntu.md "Ubuntu Desktop 20.04")
+  - [Gentoo](/docs/notes/linux/Debian/Gentoo.md)
+- RedHat
+  - [CentOS](/docs/notes/linux/RedHat/CentOS.md)
