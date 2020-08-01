@@ -47,3 +47,6 @@ document.write(`<script src="${window.$docsify.plugins_url}/pagination.js"></scr
 
 // 目录折叠 https://github.com/iPeng6/docsify-sidebar-collapse
 document.write(`<script defer src="https://unpkg.com/docsify-sidebar-collapse@1.1.3/dist/docsify-sidebar-collapse.min.js"></script>`)
+
+// PWA
+!window.$docsify.dev && typeof navigator.serviceWorker !== 'undefined' && navigator.serviceWorker.register(`pwa.js`)
